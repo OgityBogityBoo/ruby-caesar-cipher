@@ -1,3 +1,12 @@
+#Ruby Terminal Caesar Cipher
+#Prompts user to enter in a message and a letter shift amount
+#Returns the encrypted message
+#Uses ASCII text to shift the characters based on the
+# letter shift amount.
+#
+# Created by Sam Barton
+#
+
 #Method for getting the message in plain text
 def get_user_input_message
     puts "Enter in your message..."
@@ -16,7 +25,7 @@ end
 
 #Method for encrypting message
 def caesar_cipher(plain_message, amt_to_shift)
-    puts "ENCRYPTING... #{plain_message} by #{amt_to_shift}"
+    puts "ENCRYPTING... "
     encrypted_message = ""
 
     #loop through plain_message
